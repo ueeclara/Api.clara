@@ -1,0 +1,69 @@
+body {
+  background-color: #f7b972;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  color : #584c3e;
+  text-align: left;
+}
+
+form {
+  background-color: #db9545;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+form input {
+  background-color: #f8d7b1;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+form button {
+  padding: 5px 10px;
+}
+
+#productsList {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
+.product-item {
+  background-color: #db9545;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.product-name {
+  font-weight: bold;
+}
+
+.edit-button,
+.delete-button {
+  padding: 5px 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #99d49b;
+  color: rgb(10, 10, 10);
+}
+
+.delete-button {
+  background-color: #d87378;
+  color: rgb(10, 10, 10);
+}
+
+.edit-button:hover,
+.delete-button:hover {
+  opacity: 0.8;
+}
